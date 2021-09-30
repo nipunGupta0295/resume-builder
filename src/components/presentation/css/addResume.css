@@ -1,0 +1,57 @@
+.container {
+    margin-top: 10vh;
+    height: 60vh;
+}
+
+.resume-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.resume-button {
+    width: 100px;
+    height: 50px;
+    margin-right: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #fc385b;
+}
+
+.resume-button:hover {
+    cursor: pointer;
+    background-color: #d91538;
+    
+}
+
+.prev-res {
+    background: aliceblue;
+    height: 25vh;
+    padding: 10px;
+}
+
+.new-res {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vh;
+    height: 13vh;
+    padding: 50px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 1px 1px 10px grey;
+    border-radius: 10px;
+}
+
+#new-resume-button {
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e7cca2;
+}
+
+#new-resume-button:hover {
+    cursor: pointer;
+    background-color: rgb(240, 169, 63);
+}
